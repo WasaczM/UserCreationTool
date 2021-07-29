@@ -2,6 +2,7 @@ import tkinter as tk
 import pandas as pd
 import random
 
+print("GIT DZIALA I JEST GIT!")
 
 def unique_values(list):
     output = []
