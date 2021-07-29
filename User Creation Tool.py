@@ -288,9 +288,42 @@ class Page(tk.Frame):
     def show(self):
         self.lift()
 
+    # FUNCTIONS ADDING WIDGETS TO PAGES
+    def addLabel(self, text, where_add, relx, rely, relwidth=None, relheight=None):
+        label = tk.Label(where_add, text=text)
+        if relwidth and relheight is not None:
+            label.place(relx=relx, rely=rely, relwidth=relwidth, relheight=relheight)
+        else:
+            label.place(relx=relx, rely=rely)
+        dict_to_add = {len(self.labelDict): label}
+        self.labelDict.update(dict_to_add)
+
+    def addButton(self, text, where_add, relx, rely, relwidth, relheight, command=None):
+        button = tk.Button(where_add, text=text)
+        button.place(relx=relx, rely=rely, relwidth=relwidth, relheight=relheight)
+        if command is not None:
+            button.configure(command=command)
+        self.buttonList.append(button)
+
+    def addListBox(self, where_add, select_mode, width, relx, rely, contents, name):
+        ListBox = tk.Listbox(where_add, selectmode=select_mode, width=width)
+        ListBox.place(relx=relx, rely=rely)
+        for index, each_item in enumerate(contents):
+            ListBox.insert(index, each_item)
+        dict_to_add = {"Name": name,
+                       "ListBox object": ListBox}
+        self.listboxList.append(dict_to_add)
+
+    def addEntry(self, where_add, relx, rely, name):
+        Entry = tk.Entry(where_add)
+        Entry.place(relx=relx, rely=rely)
+        dict_to_add = {"Name": name,
+                       "Entry object": Entry}
+        self.entryList.append(dict_to_add)
+
 
 class InternalUsers(Page):
-    def __init__(self, height, width):
+    def __init__(self):
         Page.__init__(self, bg='#ffab45')
 
         self.labelDict = {}
@@ -514,40 +547,6 @@ class InternalUsers(Page):
                 userRoleSetup.to_csv(pathfile, index=False, header=True)
 
 
-    # FUNCTIONS ADDING WIDGETS
-    def addLabel(self, text, where_add, relx, rely, relwidth=None, relheight=None):
-        label = tk.Label(where_add, text=text)
-        if relwidth and relheight is not None:
-            label.place(relx=relx, rely=rely, relwidth=relwidth, relheight=relheight)
-        else:
-            label.place(relx=relx, rely=rely)
-        dict_to_add = {len(self.labelDict): label}
-        self.labelDict.update(dict_to_add)
-
-    def addButton(self, text, where_add, relx, rely, relwidth, relheight, command=None):
-        button = tk.Button(where_add, text=text)
-        button.place(relx=relx, rely=rely, relwidth=relwidth, relheight=relheight)
-        if command is not None:
-            button.configure(command=command)
-        self.buttonList.append(button)
-
-    def addListBox(self, where_add, select_mode, width, relx, rely, contents, name):
-        ListBox = tk.Listbox(where_add, selectmode=select_mode, width=width)
-        ListBox.place(relx=relx, rely=rely)
-        for index, each_item in enumerate(contents):
-            ListBox.insert(index, each_item)
-        dict_to_add = {"Name": name,
-                       "ListBox object": ListBox}
-        self.listboxList.append(dict_to_add)
-
-    def addEntry(self, where_add, relx, rely, name):
-        Entry = tk.Entry(where_add)
-        Entry.place(relx=relx, rely=rely)
-        dict_to_add = {"Name": name,
-                       "Entry object": Entry}
-        self.entryList.append(dict_to_add)
-
-
 class ExternalUsers(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, bg='#ffab45')
@@ -737,39 +736,6 @@ class ExternalUsers(Page):
             pathfile = '_2_{}_EXTERNAL_user_role_setup.csv'.format(user_input.get("userName"))
             userRoleSetup.to_csv(pathfile, index=False, header=True)
 
-    # FUNCTIONS ADDING WIDGETS
-    def addLabel(self, text, where_add, relx, rely, relwidth=None, relheight=None):
-        label = tk.Label(where_add, text=text)
-        if relwidth and relheight is not None:
-            label.place(relx=relx, rely=rely, relwidth=relwidth, relheight=relheight)
-        else:
-            label.place(relx=relx, rely=rely)
-        dict_to_add = {len(self.labelDict): label}
-        self.labelDict.update(dict_to_add)
-
-    def addButton(self, text, where_add, relx, rely, relwidth, relheight, command=None):
-        button = tk.Button(where_add, text=text)
-        button.place(relx=relx, rely=rely, relwidth=relwidth, relheight=relheight)
-        if command is not None:
-            button.configure(command=command)
-        self.buttonList.append(button)
-
-    def addListBox(self, where_add, select_mode, width, relx, rely, contents, name):
-        ListBox = tk.Listbox(where_add, selectmode=select_mode, width=width)
-        ListBox.place(relx=relx, rely=rely)
-        for index, each_item in enumerate(contents):
-            ListBox.insert(index, each_item)
-        dict_to_add = {"Name": name,
-                       "ListBox object": ListBox}
-        self.listboxList.append(dict_to_add)
-
-    def addEntry(self, where_add, relx, rely, name):
-        Entry = tk.Entry(where_add)
-        Entry.place(relx=relx, rely=rely)
-        dict_to_add = {"Name": name,
-                       "Entry object": Entry}
-        self.entryList.append(dict_to_add)
-
 
 class UsUsers(Page):
 
@@ -923,46 +889,13 @@ class UsUsers(Page):
                 userRoleSetup.to_csv(pathfile, index=False, header=True)
 
 
-    # FUNCTIONS ADDING WIDGETS
-    def addLabel(self, text, where_add, relx, rely, relwidth=None, relheight=None):
-        label = tk.Label(where_add, text=text)
-        if relwidth and relheight is not None:
-            label.place(relx=relx, rely=rely, relwidth=relwidth, relheight=relheight)
-        else:
-            label.place(relx=relx, rely=rely)
-        dict_to_add = {len(self.labelDict): label}
-        self.labelDict.update(dict_to_add)
-
-    def addButton(self, text, where_add, relx, rely, relwidth, relheight, command=None):
-        button = tk.Button(where_add, text=text)
-        button.place(relx=relx, rely=rely, relwidth=relwidth, relheight=relheight)
-        if command is not None:
-            button.configure(command=command)
-        self.buttonList.append(button)
-
-    def addListBox(self, where_add, select_mode, width, relx, rely, contents, name):
-        ListBox = tk.Listbox(where_add, selectmode=select_mode, width=width)
-        ListBox.place(relx=relx, rely=rely)
-        for index, each_item in enumerate(contents):
-            ListBox.insert(index, each_item)
-        dict_to_add = {"Name": name,
-                       "ListBox object": ListBox}
-        self.listboxList.append(dict_to_add)
-
-    def addEntry(self, where_add, relx, rely, name):
-        Entry = tk.Entry(where_add)
-        Entry.place(relx=relx, rely=rely)
-        dict_to_add = {"Name": name,
-                       "Entry object": Entry}
-        self.entryList.append(dict_to_add)
-
 class Tool:
 
     def __init__(self, height, width):
 
         # MAIN PART
         self.root = tk.Tk()
-        self.root.title('Internal User Creation Tool 0.4')
+        self.root.title('User Creation Tool')
         self.root.iconbitmap('Pizza.ico')
         canvas = tk.Canvas(self.root, height=height, width=width)
         canvas.pack()
@@ -978,9 +911,9 @@ class Tool:
         frameMain = tk.Frame(canvas, bg=bg)         # #ffab45 <-- original orange colour
         frameMain.place(relx=0.00, rely=0.05, relwidth=1, relheight=1)
 
-        p1 = InternalUsers(height = height, width = width)
-        p2 = ExternalUsers(height = height, width = width)
-        p3 = UsUsers(height = height, width = width)
+        p1 = InternalUsers()
+        p2 = ExternalUsers()
+        p3 = UsUsers()
 
         p1.place(in_ = frameMain, relx=0.00, rely=0.00, relwidth=1, relheight=1)
         p2.place(in_ = frameMain, relx=0.00, rely=0.00, relwidth=1, relheight=1)
