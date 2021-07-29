@@ -11,286 +11,275 @@ def unique_values(list):
 
 
 class File:
-
     matrice_name = "matrice_source.xlsx"
+    df_countries = pd.read_excel(matrice_name, sheet_name="Countries")
+    df_therapyAreas = pd.read_excel(matrice_name, sheet_name="THERAPY_AREA_SETUP")
 
-    def __init__(self, user_input):
 
-        self.df_countries = pd.read_excel(self.matrice_name, sheet_name="Countries")
-        self.df_therapyAreas = pd.read_excel(self.matrice_name, sheet_name="THERAPY_AREA_SETUP")
-        self.user_input = user_input
+class ContentPlan(File):
+    template_name = "fresh_template_content_plan.xlsx"
 
-    class ContentPlan:
+    def __init__(self, input):
+        super().__init__()
+        self.df_template = pd.read_excel(self.template_name)
+        self.df_contentPlans = pd.read_excel(self.matrice_name, sheet_name="CONTENT_PLAN_SETUP")
+        self.input = input
 
-        template_name = "fresh_template_content_plan.xlsx"
+    def to_data_frame(self):
+        content_plans   = self.df_contentPlans
+        markets         = self.input.get("markets")
+        securityProfile = self.input.get("securityProfile")
+        userid          = self.input.get("MUDID")
 
-        def __init__(self, user_input):
-            self.file = File(user_input)
+        for iterator, market in enumerate(markets):
+            if iterator == 0:
+                tmp_df = content_plans[content_plans["Security_profile"] == securityProfile[0]]
+                tmp_df = tmp_df.drop(columns=["Security_profile"])
 
-            self.df_template = pd.read_excel(self.template_name)
-            self.df_contentPlans = pd.read_excel(self.file.matrice_name, sheet_name="CONTENT_PLAN_SETUP")
+            if iterator > 0:
+                tmp_df = content_plans[content_plans["Security_profile"] == securityProfile[0]]
+                tmp_df = tmp_df.drop(columns=["Security_profile"])
+                tmp_df = tmp_df.dropna(subset=['country__c'])
 
-        def toDataFrame(self):
-            input = self.file.user_input
-            countries = self.file.df_countries
-            content_plans = self.df_contentPlans
-            markets = input.get("markets")
-            securityProfile = input.get("securityProfile")
-            userid = input.get("MUDID")
+            country_id = self.df_countries.loc[self.df_countries["Country Name"] == market]
+            country_id_val = country_id.iloc[0, 4]
+
+            tmp_df = tmp_df.replace({"{LOC}": country_id_val,
+                                     "user_id": userid})
+
+            self.df_template = self.df_template.append(tmp_df)
+
+        return self.df_template
+
+
+class InternalUserRoleSetup(File):
+    template_name = "fresh_template_user_role_setup.xlsx"
+
+    def __init__(self, input):
+        super().__init__()
+
+        self.df_template = pd.read_excel(self.template_name)
+        self.df_roleSetup = pd.read_excel(self.matrice_name, sheet_name="ROLE_SETUP")
+        self.df_specialRoles = pd.read_excel(self.matrice_name, sheet_name="SPECIAL_COUNTRY_ROLES")
+        self.input = input
+        self.therapyAreasRoles = ['Global Commercial Content Owner','Global Commercial Reviewer','Global Commercial Approver','Global Medical Content Owner','Global Medical Reviewer','Global Medical Approver']
+        self.specialCountryRoles = ["Austria","Bulgaria","Canada","Costa Rica","Czech Republic","Egypt","El Salvador","Algeria","Bahrain","Belarus","Egypt","Ghana","Iran","Ivory Coast","Jordan","Kazakhstan","Kenya","Kuwait","Lebanon","Morocco","Nigeria","Oman","Pakistan","Qatar","Russia","Saudi Arabia","South Africa","Tunisia","Turkey","Ukraine","United Arab Emirates","Indonesia","India","Malaysia","Philippines","Sri Lanka","Thailand","Vietnam","Argentina","Brazil","Chile","Colombia","Costa Rica","Dominican Republic","Ecuador","El Salvador","Guatemala","Honduras","Jamaica","Mexico","Nicaragua","Panama","Peru","Trinidad and Tobago","Uruguay","Estonia","Germany","Greece","Guatemala","Honduras","Hungary","Italy","Jamaica","Jordan","Kenya","Latvia","Nigeria","Panama","Serbia","Slovakia","Slovenia","Taiwan","Trinidad and Tobago","Turkey"]
+
+    def to_data_frame(self):
+
+        def addGlobalRole(userid, therapyAreas, df_roleSetup, df_countries, df_therapyAreas):
             template = self.df_template
-
-            for iterator, market in enumerate(markets):
-
-                if iterator == 0:
-                    tmp_df = content_plans[content_plans["Security_profile"] == securityProfile[0]]
-                    tmp_df = tmp_df.drop(columns=["Security_profile"])
-
-                if iterator > 0:
-                    tmp_df = content_plans[content_plans["Security_profile"] == securityProfile[0]]
-                    tmp_df = tmp_df.drop(columns=["Security_profile"])
-                    tmp_df = tmp_df.dropna(subset=['country__c'])
-
-                country_id = countries.loc[countries["Country Name"] == market]
-                country_id_val = country_id.iloc[0, 4]
-
-                tmp_df = tmp_df.replace({"{LOC}": country_id_val,
-                                         "user_id": userid})
-
-                template = template.append(tmp_df)
-
-            return template
-
-    class InternalUserRoleSetup:
-
-        template_name = "fresh_template_user_role_setup.xlsx"
-
-        def __init__(self, user_input):
-            self.file = File(user_input)
-
-            self.df_template = pd.read_excel(self.template_name)
-            self.df_roleSetup = pd.read_excel(self.file.matrice_name, sheet_name="ROLE_SETUP")
-            self.df_specialRoles = pd.read_excel(self.file.matrice_name, sheet_name="SPECIAL_COUNTRY_ROLES")
-
-            self.therapyAreasRoles = ['Global Commercial Content Owner','Global Commercial Reviewer','Global Commercial Approver','Global Medical Content Owner','Global Medical Reviewer','Global Medical Approver']
-            self.specialCountryRoles = ["Austria","Bulgaria","Canada","Costa Rica","Czech Republic","Egypt","El Salvador","Algeria","Bahrain","Belarus","Egypt","Ghana","Iran","Ivory Coast","Jordan","Kazakhstan","Kenya","Kuwait","Lebanon","Morocco","Nigeria","Oman","Pakistan","Qatar","Russia","Saudi Arabia","South Africa","Tunisia","Turkey","Ukraine","United Arab Emirates","Indonesia","India","Malaysia","Philippines","Sri Lanka","Thailand","Vietnam","Argentina","Brazil","Chile","Colombia","Costa Rica","Dominican Republic","Ecuador","El Salvador","Guatemala","Honduras","Jamaica","Mexico","Nicaragua","Panama","Peru","Trinidad and Tobago","Uruguay","Estonia","Germany","Greece","Guatemala","Honduras","Hungary","Italy","Jamaica","Jordan","Kenya","Latvia","Nigeria","Panama","Serbia","Slovakia","Slovenia","Taiwan","Trinidad and Tobago","Turkey"]
-
-        def toDataFrame(self):
-
-            def addGlobalRole(userid, therapyAreas, df_roleSetup, df_countries, df_therapyAreas):
-                template = self.df_template
-                for i, therapyArea in enumerate(therapyAreas):
-                    if i == 0:
-                        tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
-                        tmp_df = tmp_df.drop(columns=['Persona'])
-
-                    if i > 0:
-                        tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
-                        tmp_df = tmp_df.drop(columns=['Persona'])
-                        tmp_df = tmp_df.dropna(subset=['franchise__c'])
-                        tmp_df = tmp_df[tmp_df['country__c'] != "Global"]
-
-                    id_country = df_countries.loc[df_countries["Country Name"] == market]
-                    id_global = df_countries.loc[df_countries["Country Name"] == "Global"]
-                    id_therapyArea = df_therapyAreas.loc[df_therapyAreas["Picklist Value Label"] == therapyAreas[i]]
-
-                    id_country_val = id_country.iloc[0, 4]
-                    id_global_val = id_global.iloc[0, 4]
-                    id_therapy_area_val = id_therapyArea.iloc[0, 1]
-
-                    tmp_df = tmp_df.replace({"{LOC}": id_country_val,
-                                             "Global": id_global_val,
-                                             "user_id": userid,
-                                             "{Therapy Area}": id_therapy_area_val})
-                    template = tmp_df.append(template)
-                return template
-
-            def addLocalRole(iterator, userid, df_roleSetup, df_countries, df_specialCountries):
-                if iterator == 0:
-                    tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
-                    tmp_df = tmp_df.drop(columns=["Persona"])
-
-                if iterator > 0:
+            for i, therapyArea in enumerate(therapyAreas):
+                if i == 0:
                     tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
                     tmp_df = tmp_df.drop(columns=['Persona'])
-                    tmp_df = tmp_df.dropna(subset=['country__c'])
+
+                if i > 0:
+                    tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
+                    tmp_df = tmp_df.drop(columns=['Persona'])
+                    tmp_df = tmp_df.dropna(subset=['franchise__c'])
                     tmp_df = tmp_df[tmp_df['country__c'] != "Global"]
 
                 id_country = df_countries.loc[df_countries["Country Name"] == market]
                 id_global = df_countries.loc[df_countries["Country Name"] == "Global"]
+                id_therapyArea = df_therapyAreas.loc[df_therapyAreas["Picklist Value Label"] == therapyAreas[i]]
 
                 id_country_val = id_country.iloc[0, 4]
                 id_global_val = id_global.iloc[0, 4]
-
-                # ADDING ROW(S) FOR THE 'SUBMISSION COORDINATOR' ROLE (BASED ON 'SPECIAL COUNTRY ROLES' LIST)
-                if market in self.specialCountryRoles:
-                    df_curr_specialCountries = df_specialCountries.loc[(df_specialCountries["COUNTRY_NAME"] == market) & (df_specialCountries["ROLE_NAME"] == role)]
-                    df_curr_specialCountries = df_curr_specialCountries.drop(columns=["COUNTRY_NAME", "ROLE_NAME"])
-                    tmp_df = pd.concat([tmp_df, df_curr_specialCountries])  # ZLACZENIE WYCINKA MATRYCY Z WIERSZEM "SUBMISSION COORDINATOR"
+                id_therapy_area_val = id_therapyArea.iloc[0, 1]
 
                 tmp_df = tmp_df.replace({"{LOC}": id_country_val,
                                          "Global": id_global_val,
-                                         "user_id": userid})
+                                         "user_id": userid,
+                                         "{Therapy Area}": id_therapy_area_val})
+                template = tmp_df.append(template)
+            return template
 
-                return tmp_df
+        def addLocalRole(iterator, userid, df_roleSetup, df_countries, df_specialCountries):
+            if iterator == 0:
+                tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
+                tmp_df = tmp_df.drop(columns=["Persona"])
 
-            input = self.file.user_input
-            template = self.df_template
+            if iterator > 0:
+                tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
+                tmp_df = tmp_df.drop(columns=['Persona'])
+                tmp_df = tmp_df.dropna(subset=['country__c'])
+                tmp_df = tmp_df[tmp_df['country__c'] != "Global"]
 
-            for role in input.get("roles"):
+            id_country = df_countries.loc[df_countries["Country Name"] == market]
+            id_global = df_countries.loc[df_countries["Country Name"] == "Global"]
+
+            id_country_val = id_country.iloc[0, 4]
+            id_global_val = id_global.iloc[0, 4]
+
+            # ADDING ROW(S) FOR THE 'SUBMISSION COORDINATOR' ROLE (BASED ON 'SPECIAL COUNTRY ROLES' LIST)
+            if market in self.specialCountryRoles:
+                df_curr_specialCountries = df_specialCountries.loc[(df_specialCountries["COUNTRY_NAME"] == market) & (df_specialCountries["ROLE_NAME"] == role)]
+                df_curr_specialCountries = df_curr_specialCountries.drop(columns=["COUNTRY_NAME", "ROLE_NAME"])
+                tmp_df = pd.concat([tmp_df, df_curr_specialCountries])  # ZLACZENIE WYCINKA MATRYCY Z WIERSZEM "SUBMISSION COORDINATOR"
+
+            tmp_df = tmp_df.replace({"{LOC}": id_country_val,
+                                     "Global": id_global_val,
+                                     "user_id": userid})
+
+            return tmp_df
+
+        input = self.input
+        template = self.df_template
+
+        for role in input.get("roles"):
+            for iterator, market in enumerate(input.get("markets")):
+                if role in self.therapyAreasRoles:
+                    tmp_df = addGlobalRole(userid=input.get("MUDID"),
+                                           therapyAreas=input.get("therapyAreas"),
+                                           df_roleSetup=self.df_roleSetup,
+                                           df_countries=self.df_countries,
+                                           df_therapyAreas=self.df_therapyAreas)
+                    template = template.append(tmp_df)
+
+                if role not in self.therapyAreasRoles:
+                    tmp_df = addLocalRole(iterator=iterator,
+                                          userid=input.get("MUDID"),
+                                          df_roleSetup=self.df_roleSetup,
+                                          df_countries=self.df_countries,
+                                          df_specialCountries=self.df_specialRoles)
+                    template = template.append(tmp_df)
+
+        return template
+
+
+class ExternalUserRoleSetup(File):
+    template_name = "fresh_template_user_role_setup.xlsx"
+
+    def __init__(self, input):
+        super().__init__()
+        self.input = input
+        self.df_template = pd.read_excel(self.template_name)
+        self.df_roleSetup = pd.read_excel(self.matrice_name, sheet_name="ROLE_SETUP")
+        self.df_products = pd.read_excel(self.matrice_name, sheet_name="Products")
+        self.productRoles = ['Global Commercial Agency', 'Global Medical Agency']
+
+    def to_data_frame(self):
+
+        def addLocalRole(iterator, userid, role, agency, market, df_roleSetup, df_countries):
+            if iterator == 0:
+                tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
+                tmp_df = tmp_df.drop(columns=["Persona"])
+
+            if iterator > 0:
+                tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
+                tmp_df = tmp_df.drop(columns=['Persona'])
+                tmp_df = tmp_df.dropna(subset=['country__c'])
+                tmp_df = tmp_df[tmp_df['country__c'] != "Global"]
+
+            id_country = df_countries.loc[df_countries["Country Name"] == market]
+            id_global = df_countries.loc[df_countries["Country Name"] == "Global"]
+
+            id_country_val = id_country.iloc[0, 4]
+            id_global_val = id_global.iloc[0, 4]
+
+            tmp_df = tmp_df.replace({"{LOC}": id_country_val,
+                                     "Global": id_global_val,
+                                     "user_id": userid,
+                                     "{Creative Agency}": agency})
+
+            return tmp_df
+
+        def addGlobalRole(iterator, userid, role, agency, market, product, df_roleSetup, df_countries, df_products):
+            if iterator == 0:
+                tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
+                tmp_df = tmp_df.drop(columns=["Persona"])
+
+            if iterator > 0:
+                tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
+                tmp_df = tmp_df.drop(columns=['Persona'])
+                tmp_df = tmp_df.dropna(subset=['product__c'])
+                tmp_df = tmp_df[tmp_df['country__c'] != "Global"]
+
+            id_country = df_countries.loc[df_countries["Country Name"] == market]
+            id_global = df_countries.loc[df_countries["Country Name"] == "Global"]
+            id_product = df_products.loc[df_products["Product Name"] == product]
+
+            id_country_val = id_country.iloc[0, 4]
+            id_global_val = id_global.iloc[0, 4]
+            id_product_val = id_product.iloc[0, 1]
+
+            tmp_df = tmp_df.replace({"{LOC}": id_country_val,
+                                     "Global": id_global_val,
+                                     "user_id": userid,
+                                     "{Creative Agency}": agency,
+                                     "{Product}": id_product_val})
+
+            return tmp_df
+
+        input = self.input
+        template = self.df_template
+
+        for role in input.get("roles"):
+            if role not in self.productRoles:
                 for iterator, market in enumerate(input.get("markets")):
-                    if role in self.therapyAreasRoles:
-                        tmp_df = addGlobalRole(userid=input.get("MUDID"),
-                                               therapyAreas=input.get("therapyAreas"),
-                                               df_roleSetup=self.df_roleSetup,
-                                               df_countries=self.file.df_countries,
-                                               df_therapyAreas=self.file.df_therapyAreas)
-                        template = template.append(tmp_df)
+                    tmp_df = addLocalRole(iterator=iterator,
+                                          userid=input.get("MUDID"),
+                                          role=role,
+                                          agency=input.get("agency"),
+                                          market=market,
+                                          df_roleSetup=self.df_roleSetup,
+                                          df_countries=self.file.df_countries)
+                    template = template.append(tmp_df)
 
-                    if role not in self.therapyAreasRoles:
-                        tmp_df = addLocalRole(iterator=iterator,
-                                              userid=input.get("MUDID"),
-                                              df_roleSetup=self.df_roleSetup,
-                                              df_countries=self.file.df_countries,
-                                              df_specialCountries=self.df_specialRoles)
-                        template = template.append(tmp_df)
+            if role in self.productRoles:
+                for iterator, product in enumerate(input.get("products")):
+                    tmp_df = addGlobalRole(iterator=iterator,
+                                           userid=input.get("MUDID"),
+                                           role=role,
+                                           agency=input.get("agency"),
+                                           market="Global",
+                                           product=product,
+                                           df_roleSetup=self.df_roleSetup,
+                                           df_countries=self.df_countries,
+                                           df_products=self.df_products)
+                    template = template.append(tmp_df)
 
-            return template
-
-    class ExternalUserRoleSetup:
-
-        template_name = "fresh_template_user_role_setup.xlsx"
-
-        def __init__(self, user_input):
-            self.file = File(user_input)
-            self.df_template = pd.read_excel(self.template_name)
-            self.df_roleSetup = pd.read_excel(self.file.matrice_name, sheet_name="ROLE_SETUP")
-            self.df_products = pd.read_excel(self.file.matrice_name, sheet_name="Products")
-            self.productRoles = ['Global Commercial Agency', 'Global Medical Agency']
-
-        def toDataFrame(self):
-
-            def addLocalRole(iterator, userid, role, agency, market, df_roleSetup, df_countries):
-                if iterator == 0:
-                    tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
-                    tmp_df = tmp_df.drop(columns=["Persona"])
-
-                if iterator > 0:
-                    tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
-                    tmp_df = tmp_df.drop(columns=['Persona'])
-                    tmp_df = tmp_df.dropna(subset=['country__c'])
-                    tmp_df = tmp_df[tmp_df['country__c'] != "Global"]
-
-                id_country = df_countries.loc[df_countries["Country Name"] == market]
-                id_global = df_countries.loc[df_countries["Country Name"] == "Global"]
-
-                id_country_val = id_country.iloc[0, 4]
-                id_global_val = id_global.iloc[0, 4]
-
-                tmp_df = tmp_df.replace({"{LOC}": id_country_val,
-                                         "Global": id_global_val,
-                                         "user_id": userid,
-                                         "{Creative Agency}": agency})
-
-                return tmp_df
-
-            def addGlobalRole(iterator, userid, role, agency, market, product, df_roleSetup, df_countries, df_products):
-                if iterator == 0:
-                    tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
-                    tmp_df = tmp_df.drop(columns=["Persona"])
-
-                if iterator > 0:
-                    tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
-                    tmp_df = tmp_df.drop(columns=['Persona'])
-                    tmp_df = tmp_df.dropna(subset=['product__c'])
-                    tmp_df = tmp_df[tmp_df['country__c'] != "Global"]
-
-                id_country = df_countries.loc[df_countries["Country Name"] == market]
-                id_global = df_countries.loc[df_countries["Country Name"] == "Global"]
-                id_product = df_products.loc[df_products["Product Name"] == product]
-
-                id_country_val = id_country.iloc[0, 4]
-                id_global_val = id_global.iloc[0, 4]
-                id_product_val = id_product.iloc[0, 1]
-
-                tmp_df = tmp_df.replace({"{LOC}": id_country_val,
-                                         "Global": id_global_val,
-                                         "user_id": userid,
-                                         "{Creative Agency}": agency,
-                                         "{Product}": id_product_val})
-
-                return tmp_df
-
-            input = self.file.user_input
-            template = self.df_template
-
-            for role in input.get("roles"):
+        return template
 
 
-                if role not in self.productRoles:
-                    for iterator, market in enumerate(input.get("markets")):
-                        tmp_df = addLocalRole(iterator=iterator,
-                                              userid=input.get("MUDID"),
-                                              role=role,
-                                              agency=input.get("agency"),
-                                              market=market,
-                                              df_roleSetup=self.df_roleSetup,
-                                              df_countries=self.file.df_countries)
-                        template = template.append(tmp_df)
+class UsUsersUserRoleSetup(File):
+    template_name = "fresh_template_user_role_setup.xlsx"
 
-                if role in self.productRoles:
-                    for iterator, product in enumerate(input.get("products")):
-                        tmp_df = addGlobalRole(iterator=iterator,
-                                               userid=input.get("MUDID"),
-                                               role=role,
-                                               agency=input.get("agency"),
-                                               market="Global",
-                                               product=product,
-                                               df_roleSetup=self.df_roleSetup,
-                                               df_countries=self.file.df_countries,
-                                               df_products=self.df_products)
-                        template = template.append(tmp_df)
-            return template
+    def __init__(self, input):
+        super().__init__()
+        self.df_template = pd.read_excel(self.template_name)
+        self.df_roleSetup = pd.read_excel(self.matrice_name, sheet_name="US_ROLE_SETUP")
+        self.input = input
 
-    class UsUsersUserRoleSetup:
-        template_name = "fresh_template_user_role_setup.xlsx"
+    def to_data_frame(self):
 
-        def __init__(self, user_input):
-            self.file = File(user_input)
+        def add_role(iterator, userid, role, agencyName, df_roleSetup):
+            if iterator == 0:
+                tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
+                tmp_df = tmp_df.drop(columns=["Persona"])
 
-            self.df_template = pd.read_excel(self.template_name)
-            self.df_roleSetup = pd.read_excel(self.file.matrice_name, sheet_name="US_ROLE_SETUP")
-
-        def toDataFrame(self):
-
-            def addRole(iterator, userid, agencyName, df_roleSetup):
-                if iterator == 0:
-                    tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
-                    tmp_df = tmp_df.drop(columns=["Persona"])
-
-                if iterator > 0:
-                    tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
-                    tmp_df = tmp_df.drop(columns=['Persona'])
-                    tmp_df = tmp_df.dropna(subset=['country__c'])
-                    tmp_df = tmp_df[tmp_df['country__c'] != "Global"]
+            if iterator > 0:
+                tmp_df = df_roleSetup[df_roleSetup["Persona"] == role]
+                tmp_df = tmp_df.drop(columns=['Persona'])
+                tmp_df = tmp_df.dropna(subset=['country__c'])
+                tmp_df = tmp_df[tmp_df['country__c'] != "Global"]
 
 
-                tmp_df = tmp_df.replace({"user_id": userid,
-                                         "agency__c": agencyName})
+            tmp_df = tmp_df.replace({"user_id": userid,
+                                     "agency__c": agencyName})
+            return tmp_df
 
-                return tmp_df
+        for iterator, role in enumerate(self.input.get("roles")):
+            tmp_df = add_role(iterator      = iterator,
+                             userid         = self.input.get("MUDID"),
+                             agencyName     = self.input.get('agency'),
+                             df_roleSetup   = self.df_roleSetup,
+                             role           = role)
+            self.df_template = self.df_template.append(tmp_df)
 
-            input = self.file.user_input
-            template = self.df_template
+        return self.df_template
 
-            for iterator, role in enumerate(input.get("roles")):
-
-                tmp_df = addRole(iterator=iterator,
-                                 userid=input.get("MUDID"),
-                                 agencyName = input.get('agency'),
-                                 df_roleSetup=self.df_roleSetup)
-                template = template.append(tmp_df)
-
-            return template
 
 class Page(tk.Frame):
     def __init__(self, *args, **kwargs):
@@ -515,12 +504,12 @@ class InternalUsers(Page):
                           "therapyAreas": self.selectedTherapyAreas}
 
             if user_input.get("fileType") == "Content Plan":
-                contentPlan = File.ContentPlan(user_input).toDataFrame()
+                contentPlan = ContentPlan(user_input).to_data_frame()
                 pathfile = '_1_{}_content_plan.csv'.format(user_input.get("userName"))
                 contentPlan.to_csv(pathfile, index=False, header=True)
 
             if user_input.get("fileType") == "User Role Setup":
-                userRoleSetup = File.InternalUserRoleSetup(user_input).toDataFrame()
+                userRoleSetup = InternalUserRoleSetup(user_input).to_data_frame()
                 pathfile = '_2_{}_user_role_setup.csv'.format(user_input.get("userName"))
                 userRoleSetup.to_csv(pathfile, index=False, header=True)
 
@@ -744,7 +733,7 @@ class ExternalUsers(Page):
                           'agency': self.agencyName}
 
             print(user_input)
-            userRoleSetup = File.ExternalUserRoleSetup(user_input).toDataFrame()
+            userRoleSetup = ExternalUserRoleSetup(user_input).to_data_frame()
             pathfile = '_2_{}_EXTERNAL_user_role_setup.csv'.format(user_input.get("userName"))
             userRoleSetup.to_csv(pathfile, index=False, header=True)
 
@@ -924,12 +913,12 @@ class UsUsers(Page):
                           'markets': ['United States']}
 
             if user_input.get("fileType") == "Content Plan":
-                contentPlan = File.ContentPlan(user_input).toDataFrame()
+                contentPlan = ContentPlan(user_input).to_data_frame()
                 pathfile = '_1_{}_US_content_plan.csv'.format(user_input.get("userName"))
                 contentPlan.to_csv(pathfile, index=False, header=True)
 
             if user_input.get("fileType") == "User Role Setup":
-                userRoleSetup = File.UsUsersUserRoleSetup(user_input).toDataFrame()
+                userRoleSetup = UsUsersUserRoleSetup(user_input).to_data_frame()
                 pathfile = '_2_{}_US_user_role_setup.csv'.format(user_input.get("userName"))
                 userRoleSetup.to_csv(pathfile, index=False, header=True)
 
