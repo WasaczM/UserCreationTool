@@ -1,0 +1,2617 @@
+('C:\\Users\\Mateu\\Documents\\GitHub\\UserCreationTool\\build\\User Creation '
+ 'Tool\\PYZ-00.pyz',
+ [('os', 'C:\\Users\\Mateu\\anaconda3\\lib\\os.py', 'PYMODULE'),
+  ('subprocess', 'C:\\Users\\Mateu\\anaconda3\\lib\\subprocess.py', 'PYMODULE'),
+  ('selectors', 'C:\\Users\\Mateu\\anaconda3\\lib\\selectors.py', 'PYMODULE'),
+  ('threading', 'C:\\Users\\Mateu\\anaconda3\\lib\\threading.py', 'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('contextlib', 'C:\\Users\\Mateu\\anaconda3\\lib\\contextlib.py', 'PYMODULE'),
+  ('signal', 'C:\\Users\\Mateu\\anaconda3\\lib\\signal.py', 'PYMODULE'),
+  ('_strptime', 'C:\\Users\\Mateu\\anaconda3\\lib\\_strptime.py', 'PYMODULE'),
+  ('datetime', 'C:\\Users\\Mateu\\anaconda3\\lib\\datetime.py', 'PYMODULE'),
+  ('calendar', 'C:\\Users\\Mateu\\anaconda3\\lib\\calendar.py', 'PYMODULE'),
+  ('argparse', 'C:\\Users\\Mateu\\anaconda3\\lib\\argparse.py', 'PYMODULE'),
+  ('textwrap', 'C:\\Users\\Mateu\\anaconda3\\lib\\textwrap.py', 'PYMODULE'),
+  ('copy', 'C:\\Users\\Mateu\\anaconda3\\lib\\copy.py', 'PYMODULE'),
+  ('gettext', 'C:\\Users\\Mateu\\anaconda3\\lib\\gettext.py', 'PYMODULE'),
+  ('struct', 'C:\\Users\\Mateu\\anaconda3\\lib\\struct.py', 'PYMODULE'),
+  ('ntpath', 'C:\\Users\\Mateu\\anaconda3\\lib\\ntpath.py', 'PYMODULE'),
+  ('string', 'C:\\Users\\Mateu\\anaconda3\\lib\\string.py', 'PYMODULE'),
+  ('genericpath',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath', 'C:\\Users\\Mateu\\anaconda3\\lib\\posixpath.py', 'PYMODULE'),
+  ('stat', 'C:\\Users\\Mateu\\anaconda3\\lib\\stat.py', 'PYMODULE'),
+  ('pkg_resources',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.six',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid', 'C:\\Users\\Mateu\\anaconda3\\lib\\uuid.py', 'PYMODULE'),
+  ('hashlib', 'C:\\Users\\Mateu\\anaconda3\\lib\\hashlib.py', 'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle', 'C:\\Users\\Mateu\\anaconda3\\lib\\pickle.py', 'PYMODULE'),
+  ('doctest', 'C:\\Users\\Mateu\\anaconda3\\lib\\doctest.py', 'PYMODULE'),
+  ('unittest',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('fnmatch', 'C:\\Users\\Mateu\\anaconda3\\lib\\fnmatch.py', 'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('difflib', 'C:\\Users\\Mateu\\anaconda3\\lib\\difflib.py', 'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('socket', 'C:\\Users\\Mateu\\anaconda3\\lib\\socket.py', 'PYMODULE'),
+  ('shutil', 'C:\\Users\\Mateu\\anaconda3\\lib\\shutil.py', 'PYMODULE'),
+  ('tarfile', 'C:\\Users\\Mateu\\anaconda3\\lib\\tarfile.py', 'PYMODULE'),
+  ('gzip', 'C:\\Users\\Mateu\\anaconda3\\lib\\gzip.py', 'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\_compression.py',
+   'PYMODULE'),
+  ('lzma', 'C:\\Users\\Mateu\\anaconda3\\lib\\lzma.py', 'PYMODULE'),
+  ('bz2', 'C:\\Users\\Mateu\\anaconda3\\lib\\bz2.py', 'PYMODULE'),
+  ('pdb', 'C:\\Users\\Mateu\\anaconda3\\lib\\pdb.py', 'PYMODULE'),
+  ('getopt', 'C:\\Users\\Mateu\\anaconda3\\lib\\getopt.py', 'PYMODULE'),
+  ('pydoc', 'C:\\Users\\Mateu\\anaconda3\\lib\\pydoc.py', 'PYMODULE'),
+  ('webbrowser', 'C:\\Users\\Mateu\\anaconda3\\lib\\webbrowser.py', 'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64', 'C:\\Users\\Mateu\\anaconda3\\lib\\base64.py', 'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email', 'C:\\Users\\Mateu\\anaconda3\\lib\\email\\__init__.py', 'PYMODULE'),
+  ('quopri', 'C:\\Users\\Mateu\\anaconda3\\lib\\quopri.py', 'PYMODULE'),
+  ('uu', 'C:\\Users\\Mateu\\anaconda3\\lib\\uu.py', 'PYMODULE'),
+  ('optparse', 'C:\\Users\\Mateu\\anaconda3\\lib\\optparse.py', 'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('http', 'C:\\Users\\Mateu\\anaconda3\\lib\\http\\__init__.py', 'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('mimetypes', 'C:\\Users\\Mateu\\anaconda3\\lib\\mimetypes.py', 'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('ssl', 'C:\\Users\\Mateu\\anaconda3\\lib\\ssl.py', 'PYMODULE'),
+  ('html', 'C:\\Users\\Mateu\\anaconda3\\lib\\html\\__init__.py', 'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty', 'C:\\Users\\Mateu\\anaconda3\\lib\\tty.py', 'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('tokenize', 'C:\\Users\\Mateu\\anaconda3\\lib\\tokenize.py', 'PYMODULE'),
+  ('token', 'C:\\Users\\Mateu\\anaconda3\\lib\\token.py', 'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('runpy', 'C:\\Users\\Mateu\\anaconda3\\lib\\runpy.py', 'PYMODULE'),
+  ('shlex', 'C:\\Users\\Mateu\\anaconda3\\lib\\shlex.py', 'PYMODULE'),
+  ('glob', 'C:\\Users\\Mateu\\anaconda3\\lib\\glob.py', 'PYMODULE'),
+  ('code', 'C:\\Users\\Mateu\\anaconda3\\lib\\code.py', 'PYMODULE'),
+  ('codeop', 'C:\\Users\\Mateu\\anaconda3\\lib\\codeop.py', 'PYMODULE'),
+  ('dis', 'C:\\Users\\Mateu\\anaconda3\\lib\\dis.py', 'PYMODULE'),
+  ('opcode', 'C:\\Users\\Mateu\\anaconda3\\lib\\opcode.py', 'PYMODULE'),
+  ('bdb', 'C:\\Users\\Mateu\\anaconda3\\lib\\bdb.py', 'PYMODULE'),
+  ('cmd', 'C:\\Users\\Mateu\\anaconda3\\lib\\cmd.py', 'PYMODULE'),
+  ('pprint', 'C:\\Users\\Mateu\\anaconda3\\lib\\pprint.py', 'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('sysconfig', 'C:\\Users\\Mateu\\anaconda3\\lib\\sysconfig.py', 'PYMODULE'),
+  ('_osx_support',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.archive_util',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\archive_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('py_compile', 'C:\\Users\\Mateu\\anaconda3\\lib\\py_compile.py', 'PYMODULE'),
+  ('distutils.sysconfig',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('pkg_resources.py31compat',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\py31compat.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('imp', 'C:\\Users\\Mateu\\anaconda3\\lib\\imp.py', 'PYMODULE'),
+  ('inspect', 'C:\\Users\\Mateu\\anaconda3\\lib\\inspect.py', 'PYMODULE'),
+  ('ast', 'C:\\Users\\Mateu\\anaconda3\\lib\\ast.py', 'PYMODULE'),
+  ('tempfile', 'C:\\Users\\Mateu\\anaconda3\\lib\\tempfile.py', 'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('plistlib', 'C:\\Users\\Mateu\\anaconda3\\lib\\plistlib.py', 'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml', 'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\__init__.py', 'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass', 'C:\\Users\\Mateu\\anaconda3\\lib\\getpass.py', 'PYMODULE'),
+  ('nturl2path', 'C:\\Users\\Mateu\\anaconda3\\lib\\nturl2path.py', 'PYMODULE'),
+  ('ftplib', 'C:\\Users\\Mateu\\anaconda3\\lib\\ftplib.py', 'PYMODULE'),
+  ('netrc', 'C:\\Users\\Mateu\\anaconda3\\lib\\netrc.py', 'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('bisect', 'C:\\Users\\Mateu\\anaconda3\\lib\\bisect.py', 'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('platform', 'C:\\Users\\Mateu\\anaconda3\\lib\\platform.py', 'PYMODULE'),
+  ('pkgutil', 'C:\\Users\\Mateu\\anaconda3\\lib\\pkgutil.py', 'PYMODULE'),
+  ('zipfile', 'C:\\Users\\Mateu\\anaconda3\\lib\\zipfile.py', 'PYMODULE'),
+  ('__future__', 'C:\\Users\\Mateu\\anaconda3\\lib\\__future__.py', 'PYMODULE'),
+  ('pathlib', 'C:\\Users\\Mateu\\anaconda3\\lib\\pathlib.py', 'PYMODULE'),
+  ('_py_abc', 'C:\\Users\\Mateu\\anaconda3\\lib\\_py_abc.py', 'PYMODULE'),
+  ('typing', 'C:\\Users\\Mateu\\anaconda3\\lib\\typing.py', 'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep', 'C:\\Users\\Mateu\\anaconda3\\lib\\stringprep.py', 'PYMODULE'),
+  ('random', 'C:\\Users\\Mateu\\anaconda3\\lib\\random.py', 'PYMODULE'),
+  ('pandas',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.window',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.tslibs',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
+   'PYMODULE'),
+  ('numpy',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('six',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('_dummy_thread',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numbers', 'C:\\Users\\Mateu\\anaconda3\\lib\\numbers.py', 'PYMODULE'),
+  ('numpy.core._exceptions',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core.machar',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\machar.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs_scalars',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy._version',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\_version.py',
+   'PYMODULE'),
+  ('json', 'C:\\Users\\Mateu\\anaconda3\\lib\\json\\__init__.py', 'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('pandas._version',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_version.py',
+   'PYMODULE'),
+  ('pandas.arrays',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.timedeltas',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.io.formats.format',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\format.py',
+   'PYMODULE'),
+  ('pandas.io.formats.csvs',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\csvs.py',
+   'PYMODULE'),
+  ('pandas.io.formats.string',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\string.py',
+   'PYMODULE'),
+  ('pandas.io.formats.html',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\html.py',
+   'PYMODULE'),
+  ('pandas.io.formats.latex',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\latex.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.multi',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\multi.py',
+   'PYMODULE'),
+  ('pandas.core.indexes',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.util',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\reshape\\util.py',
+   'PYMODULE'),
+  ('pandas.core.reshape',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\reshape\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.sorting',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\sorting.py',
+   'PYMODULE'),
+  ('pandas.core.ops.invalid',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\ops\\invalid.py',
+   'PYMODULE'),
+  ('pandas.core.ops',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\ops\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.methods',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\ops\\methods.py',
+   'PYMODULE'),
+  ('pandas.core.ops.mask_ops',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\ops\\mask_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.docstrings',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\ops\\docstrings.py',
+   'PYMODULE'),
+  ('pandas.core.ops.array_ops',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\ops\\array_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.dispatch',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\ops\\dispatch.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expressions',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\computation\\expressions.py',
+   'PYMODULE'),
+  ('pandas.core.computation',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\computation\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.check',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\computation\\check.py',
+   'PYMODULE'),
+  ('pandas.compat._optional',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\compat\\_optional.py',
+   'PYMODULE'),
+  ('pandas.util.version',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\util\\version\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util.testing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\util\\testing.py',
+   'PYMODULE'),
+  ('pandas._testing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_testing\\__init__.py',
+   'PYMODULE'),
+  ('pandas._testing.contexts',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_testing\\contexts.py',
+   'PYMODULE'),
+  ('pandas._testing.compat',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_testing\\compat.py',
+   'PYMODULE'),
+  ('pandas._testing.asserters',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_testing\\asserters.py',
+   'PYMODULE'),
+  ('pandas._testing._warnings',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_testing\\_warnings.py',
+   'PYMODULE'),
+  ('pandas._testing._random',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_testing\\_random.py',
+   'PYMODULE'),
+  ('pandas._testing._io',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_testing\\_io.py',
+   'PYMODULE'),
+  ('pandas._config.localization',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_config\\localization.py',
+   'PYMODULE'),
+  ('pandas.core.util.hashing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\util\\hashing.py',
+   'PYMODULE'),
+  ('pandas.core.util',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.missing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\ops\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.roperator',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\roperator.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.numeric',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.frozen',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\frozen.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.merge',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\reshape\\merge.py',
+   'PYMODULE'),
+  ('pandas.core.internals',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\internals\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.internals.managers',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\internals\\managers.py',
+   'PYMODULE'),
+  ('pandas.core.internals.ops',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\internals\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._mixins',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\_mixins.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.transforms',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\array_algos\\transforms.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\array_algos\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.masked_reductions',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\array_algos\\masked_reductions.py',
+   'PYMODULE'),
+  ('pandas.util._validators',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\util\\_validators.py',
+   'PYMODULE'),
+  ('pandas.core.internals.concat',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\internals\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.internals.blocks',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\internals\\blocks.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.replace',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\array_algos\\replace.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.quantile',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\array_algos\\quantile.py',
+   'PYMODULE'),
+  ('pandas.core.internals.base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\internals\\base.py',
+   'PYMODULE'),
+  ('pandas.core.internals.array_manager',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\internals\\array_manager.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.take',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\array_algos\\take.py',
+   'PYMODULE'),
+  ('pandas.core.internals.api',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\internals\\api.py',
+   'PYMODULE'),
+  ('pandas.core.frame',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\frame.py',
+   'PYMODULE'),
+  ('pandas.core.apply',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\apply.py',
+   'PYMODULE'),
+  ('pandas.core.window.rolling',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\window\\rolling.py',
+   'PYMODULE'),
+  ('pandas.core.window',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.window.expanding',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\window\\expanding.py',
+   'PYMODULE'),
+  ('pandas.core.window.ewm',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\window\\ewm.py',
+   'PYMODULE'),
+  ('pandas.core.window.online',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\window\\online.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.ops',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\groupby\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.grouper',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\groupby\\grouper.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.categorical',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\groupby\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\groupby\\base.py',
+   'PYMODULE'),
+  ('pandas.core.window.numba_',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\window\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window.indexers',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\window\\indexers.py',
+   'PYMODULE'),
+  ('pandas.core.window.doc',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\window\\doc.py',
+   'PYMODULE'),
+  ('pandas.core.shared_docs',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\shared_docs.py',
+   'PYMODULE'),
+  ('pandas.core.window.common',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\window\\common.py',
+   'PYMODULE'),
+  ('pandas.core.util.numba_',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\util\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.reshape',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\reshape\\reshape.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.pivot',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\reshape\\pivot.py',
+   'PYMODULE'),
+  ('pandas.core.computation.eval',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\computation\\eval.py',
+   'PYMODULE'),
+  ('pandas.core.computation.scope',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\computation\\scope.py',
+   'PYMODULE'),
+  ('pandas.compat.chainmap',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\compat\\chainmap.py',
+   'PYMODULE'),
+  ('pandas.core.computation.parsing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\computation\\parsing.py',
+   'PYMODULE'),
+  ('pandas.core.computation.ops',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\computation\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.computation.common',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\computation\\common.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expr',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\computation\\expr.py',
+   'PYMODULE'),
+  ('pandas.core.computation.engines',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\computation\\engines.py',
+   'PYMODULE'),
+  ('pandas.core.computation.align',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\computation\\align.py',
+   'PYMODULE'),
+  ('pandas.io.formats.xml',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\xml.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.xml',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\xml.py',
+   'PYMODULE'),
+  ('pandas.io.parsers',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.readers',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\parsers\\readers.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.python_parser',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\parsers\\python_parser.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.c_parser_wrapper',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.base_parser',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\parsers\\base_parser.py',
+   'PYMODULE'),
+  ('pandas.io.date_converters',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\date_converters.py',
+   'PYMODULE'),
+  ('pandas.core.tools.datetimes',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\tools\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.tools.times',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\tools\\times.py',
+   'PYMODULE'),
+  ('pandas.core.tools',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\tools\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.parquet',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\parquet.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._arrow_utils',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\_arrow_utils.py',
+   'PYMODULE'),
+  ('pandas.io.feather_format',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\feather_format.py',
+   'PYMODULE'),
+  ('pandas.io.stata',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\stata.py',
+   'PYMODULE'),
+  ('dateutil.relativedelta',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\relativedelta.py',
+   'PYMODULE'),
+  ('dateutil',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.rrule',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\rrule.py',
+   'PYMODULE'),
+  ('dateutil.parser',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\parser\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.parser.isoparser',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\parser\\isoparser.py',
+   'PYMODULE'),
+  ('dateutil.parser._parser',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\parser\\_parser.py',
+   'PYMODULE'),
+  ('fractions', 'C:\\Users\\Mateu\\anaconda3\\lib\\fractions.py', 'PYMODULE'),
+  ('dateutil.tz',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\tz\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.tz',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\tz\\tz.py',
+   'PYMODULE'),
+  ('dateutil.zoneinfo',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\zoneinfo\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.win',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\tz\\win.py',
+   'PYMODULE'),
+  ('dateutil.tz._factories',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\tz\\_factories.py',
+   'PYMODULE'),
+  ('dateutil.tz._common',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\tz\\_common.py',
+   'PYMODULE'),
+  ('dateutil.easter',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\easter.py',
+   'PYMODULE'),
+  ('dateutil._version',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\_version.py',
+   'PYMODULE'),
+  ('dateutil._common',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\dateutil\\_common.py',
+   'PYMODULE'),
+  ('pandas.io.gbq',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\gbq.py',
+   'PYMODULE'),
+  ('pandas.io',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.clipboards',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\clipboards.py',
+   'PYMODULE'),
+  ('pandas.io.clipboard',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sql',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\sql.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('pandas.io.pytables',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\pytables.py',
+   'PYMODULE'),
+  ('pandas.core.computation.pytables',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\computation\\pytables.py',
+   'PYMODULE'),
+  ('pandas.compat.pickle_compat',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\compat\\pickle_compat.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\style.py',
+   'PYMODULE'),
+  ('pandas.io.formats.excel',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\excel.py',
+   'PYMODULE'),
+  ('pandas.io.excel',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\excel\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlwt',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\excel\\_xlwt.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlsxwriter',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\excel\\_xlsxwriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._util',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\excel\\_util.py',
+   'PYMODULE'),
+  ('pandas.io.excel._openpyxl',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\excel\\_openpyxl.py',
+   'PYMODULE'),
+  ('openpyxl.cell.cell',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\cell\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.cell',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\cell\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.cell.read_only',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\cell\\read_only.py',
+   'PYMODULE'),
+  ('openpyxl.utils.datetime',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\utils\\datetime.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.hyperlink',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\hyperlink.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.excel',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\descriptors\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.xml.functions',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\xml\\functions.py',
+   'PYMODULE'),
+  ('openpyxl.xml',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\xml\\__init__.py',
+   'PYMODULE'),
+  ('et_xmlfile.xmlfile',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\et_xmlfile\\xmlfile.py',
+   'PYMODULE'),
+  ('et_xmlfile',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\et_xmlfile\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.xml.constants',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\xml\\constants.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\descriptors\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.sequence',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\descriptors\\sequence.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.namespace',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\descriptors\\namespace.py',
+   'PYMODULE'),
+  ('openpyxl.utils.indexed_list',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\utils\\indexed_list.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\descriptors\\base.py',
+   'PYMODULE'),
+  ('openpyxl.styles.styleable',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\styleable.py',
+   'PYMODULE'),
+  ('openpyxl.styles.builtins',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\builtins.py',
+   'PYMODULE'),
+  ('openpyxl.styles.named_styles',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\named_styles.py',
+   'PYMODULE'),
+  ('openpyxl.styles.protection',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.styles.alignment',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\alignment.py',
+   'PYMODULE'),
+  ('openpyxl.styles.borders',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\borders.py',
+   'PYMODULE'),
+  ('openpyxl.styles.colors',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fonts',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\fonts.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.nested',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\descriptors\\nested.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fills',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\fills.py',
+   'PYMODULE'),
+  ('openpyxl.styles.cell_style',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\cell_style.py',
+   'PYMODULE'),
+  ('openpyxl.styles.proxy',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\proxy.py',
+   'PYMODULE'),
+  ('openpyxl.styles.numbers',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\numbers.py',
+   'PYMODULE'),
+  ('openpyxl.utils',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\utils\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.utils.formulas',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\utils\\formulas.py',
+   'PYMODULE'),
+  ('openpyxl.utils.cell',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\utils\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.utils.exceptions',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\utils\\exceptions.py',
+   'PYMODULE'),
+  ('openpyxl.compat',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\compat\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.compat.strings',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\compat\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.compat.numbers',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\compat\\numbers.py',
+   'PYMODULE'),
+  ('openpyxl.styles',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl._constants',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\_constants.py',
+   'PYMODULE'),
+  ('openpyxl.reader.excel',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\reader\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.reader',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\reader\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.reader.drawings',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\reader\\drawings.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reader',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\reader.py',
+   'PYMODULE'),
+  ('openpyxl.chart',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reference',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\reference.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.worksheet',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\worksheet.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.scenario',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\scenario.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.pagebreak',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\pagebreak.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.properties',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.merge',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\merge.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.cell_range',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\cell_range.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.views',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.filters',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\filters.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.protection',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.utils.protection',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\utils\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.dimensions',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\dimensions.py',
+   'PYMODULE'),
+  ('openpyxl.utils.bound_dictionary',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\utils\\bound_dictionary.py',
+   'PYMODULE'),
+  ('openpyxl.utils.units',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\utils\\units.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.page',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\page.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.datavalidation',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\datavalidation.py',
+   'PYMODULE'),
+  ('openpyxl.formula.translate',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\formula\\translate.py',
+   'PYMODULE'),
+  ('openpyxl.formula',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\formula\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.formula.tokenizer',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\formula\\tokenizer.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.defined_name',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\defined_name.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.child',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\child.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.header_footer',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\header_footer.py',
+   'PYMODULE'),
+  ('openpyxl.utils.escape',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\utils\\escape.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.formatting',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\formatting\\formatting.py',
+   'PYMODULE'),
+  ('openpyxl.formatting',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\formatting\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.rule',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\formatting\\rule.py',
+   'PYMODULE'),
+  ('openpyxl.styles.differential',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\differential.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series_factory',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\series_factory.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\series.py',
+   'PYMODULE'),
+  ('openpyxl.chart.trendline',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\trendline.py',
+   'PYMODULE'),
+  ('openpyxl.chart.layout',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\layout.py',
+   'PYMODULE'),
+  ('openpyxl.chart.text',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\text.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.text',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\text.py',
+   'PYMODULE'),
+  ('openpyxl.drawing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.drawing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.geometry',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\geometry.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.line',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\line.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.fill',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\fill.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.effect',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\effect.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.colors',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.chart.marker',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\marker.py',
+   'PYMODULE'),
+  ('openpyxl.chart.picture',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\picture.py',
+   'PYMODULE'),
+  ('openpyxl.chart.label',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\label.py',
+   'PYMODULE'),
+  ('openpyxl.chart.error_bar',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\error_bar.py',
+   'PYMODULE'),
+  ('openpyxl.chart.shapes',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\shapes.py',
+   'PYMODULE'),
+  ('openpyxl.chart.data_source',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\data_source.py',
+   'PYMODULE'),
+  ('openpyxl.chart.surface_chart',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\surface_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.axis',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\axis.py',
+   'PYMODULE'),
+  ('openpyxl.chart.title',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\title.py',
+   'PYMODULE'),
+  ('openpyxl.chart.descriptors',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\descriptors.py',
+   'PYMODULE'),
+  ('openpyxl.chart._3d',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\_3d.py',
+   'PYMODULE'),
+  ('openpyxl.chart._chart',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.legend',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\legend.py',
+   'PYMODULE'),
+  ('openpyxl.chart.stock_chart',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\stock_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.updown_bars',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\updown_bars.py',
+   'PYMODULE'),
+  ('openpyxl.chart.scatter_chart',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\scatter_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.radar_chart',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\radar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.pie_chart',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\pie_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.line_chart',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\line_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bubble_chart',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\bubble_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bar_chart',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\bar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.area_chart',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\area_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.chartspace',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\chartspace.py',
+   'PYMODULE'),
+  ('openpyxl.chart.print_settings',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\print_settings.py',
+   'PYMODULE'),
+  ('openpyxl.chart.pivot',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\pivot.py',
+   'PYMODULE'),
+  ('openpyxl.chart.plotarea',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chart\\plotarea.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.image',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\image.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.spreadsheet_drawing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\spreadsheet_drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.relation',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\relation.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.picture',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\picture.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.properties',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.graphic',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\graphic.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.connector',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\connector.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.xdr',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\drawing\\xdr.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.table',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\table.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.related',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\related.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chartsheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.chartsheet',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chartsheet\\chartsheet.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.publish',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chartsheet\\publish.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.custom',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chartsheet\\custom.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.views',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chartsheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.protection',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chartsheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.properties',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chartsheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.relation',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\chartsheet\\relation.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.drawing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._reader',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\_reader.py',
+   'PYMODULE'),
+  ('openpyxl.cell.text',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\cell\\text.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._read_only',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\_read_only.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.relationship',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\packaging\\relationship.py',
+   'PYMODULE'),
+  ('openpyxl.packaging',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.manifest',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\packaging\\manifest.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.core',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\packaging\\core.py',
+   'PYMODULE'),
+  ('openpyxl.styles.stylesheet',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\stylesheet.py',
+   'PYMODULE'),
+  ('openpyxl.styles.table',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\styles\\table.py',
+   'PYMODULE'),
+  ('openpyxl.reader.workbook',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\reader\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.record',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\pivot\\record.py',
+   'PYMODULE'),
+  ('openpyxl.pivot',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\pivot\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.fields',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\pivot\\fields.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.cache',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\pivot\\cache.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link.external',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\external_link\\external.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\external_link\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.workbook',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\packaging\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.web',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\web.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.views',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\views.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.smart_tags',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\smart_tags.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.protection',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.properties',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.function_group',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\function_group.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_reference',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\external_reference.py',
+   'PYMODULE'),
+  ('openpyxl.reader.strings',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\reader\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comment_sheet',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\comments\\comment_sheet.py',
+   'PYMODULE'),
+  ('openpyxl.comments',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\comments\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.comments.shape_writer',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\comments\\shape_writer.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comments',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\comments\\comments.py',
+   'PYMODULE'),
+  ('openpyxl.comments.author',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\comments\\author.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.table',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\pivot\\table.py',
+   'PYMODULE'),
+  ('openpyxl.workbook',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.workbook',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.writer.excel',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\writer\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.writer',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\writer\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.writer.theme',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\writer\\theme.py',
+   'PYMODULE'),
+  ('openpyxl.workbook._writer',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\workbook\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._writer',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.cell._writer',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\cell\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.extended',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\packaging\\extended.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.copier',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\copier.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._write_only',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\worksheet\\_write_only.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.serialisable',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\openpyxl\\descriptors\\serialisable.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odswriter',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\excel\\_odswriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\excel\\_base.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlrd',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\excel\\_xlrd.py',
+   'PYMODULE'),
+  ('pandas.io.excel._pyxlsb',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\excel\\_pyxlsb.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odfreader',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\excel\\_odfreader.py',
+   'PYMODULE'),
+  ('pandas.util._exceptions',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\util\\_exceptions.py',
+   'PYMODULE'),
+  ('pandas.io.formats.css',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\css.py',
+   'PYMODULE'),
+  ('pandas.io.formats._color_data',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\_color_data.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\dtypes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style_render',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\style_render.py',
+   'PYMODULE'),
+  ('pandas.api.types',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\api\\types\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.api',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\dtypes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.resample',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\resample.py',
+   'PYMODULE'),
+  ('pandas.tseries.frequencies',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\tseries\\frequencies.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.groupby',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\groupby\\groupby.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.numba_',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\groupby\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.generic',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\groupby\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.tile',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\reshape\\tile.py',
+   'PYMODULE'),
+  ('pandas.plotting',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\plotting\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._misc',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\plotting\\_misc.py',
+   'PYMODULE'),
+  ('pandas.plotting._core',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\plotting\\_core.py',
+   'PYMODULE'),
+  ('pandas.io.formats.info',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\info.py',
+   'PYMODULE'),
+  ('pandas.io.formats.console',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\console.py',
+   'PYMODULE'),
+  ('pandas.core.series',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\series.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.accessors',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\accessors.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.melt',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\reshape\\melt.py',
+   'PYMODULE'),
+  ('pandas.core.tools.numeric',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\tools\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numeric',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.internals.construction',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\internals\\construction.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\dataclasses.py',
+   'PYMODULE'),
+  ('pandas.core.indexing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.arraylike',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arraylike.py',
+   'PYMODULE'),
+  ('pandas.core.aggregation',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\aggregation.py',
+   'PYMODULE'),
+  ('pandas.core.generic',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\generic.py',
+   'PYMODULE'),
+  ('pandas.io.pickle',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\pickle.py',
+   'PYMODULE'),
+  ('pandas.core.flags',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\flags.py',
+   'PYMODULE'),
+  ('pandas.core.describe',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\describe.py',
+   'PYMODULE'),
+  ('pandas.core.groupby',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\groupby\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.range',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\range.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.period',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\period.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.extension',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\extension.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimelike',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.tools.timedeltas',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\tools\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.strings',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\strings\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.strings.base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\strings\\base.py',
+   'PYMODULE'),
+  ('pandas.core.strings.accessor',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\strings\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.putmask',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\array_algos\\putmask.py',
+   'PYMODULE'),
+  ('pandas.core.accessor',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.missing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.inference',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\dtypes\\inference.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.concat',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\dtypes\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.indexers',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexers.py',
+   'PYMODULE'),
+  ('pandas.util._decorators',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\util\\_decorators.py',
+   'PYMODULE'),
+  ('pandas.errors',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\errors\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.formats.printing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\printing.py',
+   'PYMODULE'),
+  ('pandas.io.common',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\common.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.concat',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\reshape\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.timedeltas',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimes',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.io.formats',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\formats\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.api',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.interval',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.category',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\indexes\\category.py',
+   'PYMODULE'),
+  ('pandas.core.base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\base.py',
+   'PYMODULE'),
+  ('pandas._config.config',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_config\\config.py',
+   'PYMODULE'),
+  ('decimal', 'C:\\Users\\Mateu\\anaconda3\\lib\\decimal.py', 'PYMODULE'),
+  ('_pydecimal', 'C:\\Users\\Mateu\\anaconda3\\lib\\_pydecimal.py', 'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('csv', 'C:\\Users\\Mateu\\anaconda3\\lib\\csv.py', 'PYMODULE'),
+  ('pandas.core.ops.common',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\ops\\common.py',
+   'PYMODULE'),
+  ('pandas.core.construction',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\dtypes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.common',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\common.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._ranges',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\_ranges.py',
+   'PYMODULE'),
+  ('pandas.core.algorithms',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\algorithms.py',
+   'PYMODULE'),
+  ('pandas.core.nanops',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\nanops.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.missing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\dtypes\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.generic',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\dtypes\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.dtypes',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py',
+   'PYMODULE'),
+  ('pytz',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pytz\\__init__.py',
+   'PYMODULE'),
+  ('pytz.tzfile',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pytz\\tzfile.py',
+   'PYMODULE'),
+  ('pytz.tzinfo',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pytz\\tzinfo.py',
+   'PYMODULE'),
+  ('pytz.lazy',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pytz\\lazy.py',
+   'PYMODULE'),
+  ('pytz.exceptions',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pytz\\exceptions.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.common',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\dtypes\\common.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.cast',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\dtypes\\cast.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy.function',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\compat\\numpy\\function.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\compat\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('pandas._typing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_typing.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_arrow',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\string_arrow.py',
+   'PYMODULE'),
+  ('pandas.core.strings.object_array',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\strings\\object_array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\string_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.period',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\period.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numpy_',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\numpy_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.masked',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\masked.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.interval',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.integer',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\integer.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.floating',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\floating.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimes',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.categorical',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.boolean',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\boolean.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.base',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\base.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimelike',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\__init__.py',
+   'PYMODULE'),
+  ('pandas.testing',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\testing.py',
+   'PYMODULE'),
+  ('pandas.util._tester',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\util\\_tester.py',
+   'PYMODULE'),
+  ('pandas.io.json',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\json\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.json._table_schema',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\json\\_table_schema.py',
+   'PYMODULE'),
+  ('pandas.io.json._normalize',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\json\\_normalize.py',
+   'PYMODULE'),
+  ('pandas.io.json._json',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\json\\_json.py',
+   'PYMODULE'),
+  ('pandas.io.api',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\api.py',
+   'PYMODULE'),
+  ('pandas.io.spss',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\spss.py',
+   'PYMODULE'),
+  ('pandas.io.sas',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\sas\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sasreader',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\sas\\sasreader.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas7bdat',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\sas\\sas7bdat.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_constants',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\sas\\sas_constants.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_xport',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\sas\\sas_xport.py',
+   'PYMODULE'),
+  ('pandas.io.orc',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\orc.py',
+   'PYMODULE'),
+  ('pandas.io.html',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\io\\html.py',
+   'PYMODULE'),
+  ('pandas.util._print_versions',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\util\\_print_versions.py',
+   'PYMODULE'),
+  ('pandas.api',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\api\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.indexers',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\api\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.extensions',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\api\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.api',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\reshape\\api.py',
+   'PYMODULE'),
+  ('pandas.core.computation.api',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\computation\\api.py',
+   'PYMODULE'),
+  ('pandas.tseries.offsets',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\tseries\\offsets.py',
+   'PYMODULE'),
+  ('pandas.tseries',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\tseries\\__init__.py',
+   'PYMODULE'),
+  ('pandas.tseries.api',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\tseries\\api.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.dtype',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\dtype.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.array',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.accessor',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.scipy_sparse',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\scipy_sparse.py',
+   'PYMODULE'),
+  ('pandas.core.api',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\api.py',
+   'PYMODULE'),
+  ('pandas.core.config_init',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\core\\config_init.py',
+   'PYMODULE'),
+  ('pandas._config',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_config\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config.display',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_config\\display.py',
+   'PYMODULE'),
+  ('pandas._config.dates',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_config\\dates.py',
+   'PYMODULE'),
+  ('pandas._libs',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\_libs\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\compat\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat.pyarrow',
+   'c:\\users\\mateu\\pycharmprojects\\gsk internal user creation app\\ver '
+   '0.4\\tool_venv\\lib\\site-packages\\pandas\\compat\\pyarrow.py',
+   'PYMODULE'),
+  ('tkinter',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'C:\\Users\\Mateu\\anaconda3\\lib\\tkinter\\constants.py',
+   'PYMODULE')])
